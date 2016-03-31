@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE65DAFF1CAADD3100B3FAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65DAFE1CAADD3100B3FAE2 /* AppDelegate.swift */; };
+		CE65DB011CAADD3100B3FAE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65DB001CAADD3100B3FAE2 /* ViewController.swift */; };
+		CE65DB041CAADD3100B3FAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE65DB021CAADD3100B3FAE2 /* Main.storyboard */; };
+		CE65DB061CAADD3100B3FAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE65DB051CAADD3100B3FAE2 /* Assets.xcassets */; };
+		CE65DB091CAADD3100B3FAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE65DB071CAADD3100B3FAE2 /* LaunchScreen.storyboard */; };
+		CE65DB111CAADD8000B3FAE2 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65DB101CAADD8000B3FAE2 /* RandomNumber.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE65DAFB1CAADD3100B3FAE2 /* WhatAreTheOdds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatAreTheOdds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE65DAFE1CAADD3100B3FAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE65DB001CAADD3100B3FAE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE65DB031CAADD3100B3FAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE65DB051CAADD3100B3FAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE65DB081CAADD3100B3FAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE65DB0A1CAADD3100B3FAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE65DB101CAADD8000B3FAE2 /* RandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE65DAF81CAADD3100B3FAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE65DAF21CAADD3100B3FAE2 = {
+			isa = PBXGroup;
+			children = (
+				CE65DAFD1CAADD3100B3FAE2 /* WhatAreTheOdds */,
+				CE65DAFC1CAADD3100B3FAE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE65DAFC1CAADD3100B3FAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE65DAFB1CAADD3100B3FAE2 /* WhatAreTheOdds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE65DAFD1CAADD3100B3FAE2 /* WhatAreTheOdds */ = {
+			isa = PBXGroup;
+			children = (
+				CE65DAFE1CAADD3100B3FAE2 /* AppDelegate.swift */,
+				CE65DB001CAADD3100B3FAE2 /* ViewController.swift */,
+				CE65DB021CAADD3100B3FAE2 /* Main.storyboard */,
+				CE65DB051CAADD3100B3FAE2 /* Assets.xcassets */,
+				CE65DB071CAADD3100B3FAE2 /* LaunchScreen.storyboard */,
+				CE65DB0A1CAADD3100B3FAE2 /* Info.plist */,
+				CE65DB101CAADD8000B3FAE2 /* RandomNumber.swift */,
+			);
+			path = WhatAreTheOdds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE65DAFA1CAADD3100B3FAE2 /* WhatAreTheOdds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE65DB0D1CAADD3100B3FAE2 /* Build configuration list for PBXNativeTarget "WhatAreTheOdds" */;
+			buildPhases = (
+				CE65DAF71CAADD3100B3FAE2 /* Sources */,
+				CE65DAF81CAADD3100B3FAE2 /* Frameworks */,
+				CE65DAF91CAADD3100B3FAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatAreTheOdds;
+			productName = WhatAreTheOdds;
+			productReference = CE65DAFB1CAADD3100B3FAE2 /* WhatAreTheOdds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE65DAF31CAADD3100B3FAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GabeCabrera;
+				TargetAttributes = {
+					CE65DAFA1CAADD3100B3FAE2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CE65DAF61CAADD3100B3FAE2 /* Build configuration list for PBXProject "WhatAreTheOdds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE65DAF21CAADD3100B3FAE2;
+			productRefGroup = CE65DAFC1CAADD3100B3FAE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE65DAFA1CAADD3100B3FAE2 /* WhatAreTheOdds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE65DAF91CAADD3100B3FAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE65DB091CAADD3100B3FAE2 /* LaunchScreen.storyboard in Resources */,
+				CE65DB061CAADD3100B3FAE2 /* Assets.xcassets in Resources */,
+				CE65DB041CAADD3100B3FAE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE65DAF71CAADD3100B3FAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE65DB011CAADD3100B3FAE2 /* ViewController.swift in Sources */,
+				CE65DB111CAADD8000B3FAE2 /* RandomNumber.swift in Sources */,
+				CE65DAFF1CAADD3100B3FAE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE65DB021CAADD3100B3FAE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE65DB031CAADD3100B3FAE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE65DB071CAADD3100B3FAE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE65DB081CAADD3100B3FAE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE65DB0B1CAADD3100B3FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE65DB0C1CAADD3100B3FAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE65DB0E1CAADD3100B3FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhatAreTheOdds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.damerita.WhatAreTheOdds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE65DB0F1CAADD3100B3FAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhatAreTheOdds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.damerita.WhatAreTheOdds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE65DAF61CAADD3100B3FAE2 /* Build configuration list for PBXProject "WhatAreTheOdds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE65DB0B1CAADD3100B3FAE2 /* Debug */,
+				CE65DB0C1CAADD3100B3FAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE65DB0D1CAADD3100B3FAE2 /* Build configuration list for PBXNativeTarget "WhatAreTheOdds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE65DB0E1CAADD3100B3FAE2 /* Debug */,
+				CE65DB0F1CAADD3100B3FAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE65DAF31CAADD3100B3FAE2 /* Project object */;
+}
