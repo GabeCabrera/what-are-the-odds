@@ -10,6 +10,7 @@ import UIKit
 //calls struct from RandomNumber.swift
  let randomNumber = RandomNumber()
 
+
 class ViewController: UIViewController, UITextFieldDelegate {
     
     
@@ -38,10 +39,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     //MARK: Actions
     
-        var rangeInput: String {
-            get {
-                //takes user input
-                return rangeInputTextField?.text ?? ""
+    var rangeInput: Int? {
+        get {
+            return Int(rangeInputTextField?.text ?? "") // ERROR OCCURS HERE
         }
     }
 }
