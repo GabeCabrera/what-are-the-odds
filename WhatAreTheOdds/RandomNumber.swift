@@ -13,19 +13,25 @@ var x = ViewController().rangeInput
 //let y = (Int?(x!))
 // var number = arc4random_uniform(UInt32(Int(y!)))
 
-if let saveInt = x as? Int {
+
+func saveIntFunc()->UInt32{
+if let saveInt = x as Int? {
     let unsignedY = UInt32(saveInt)
     let unsignedRandomNumber = arc4random_uniform(unsignedY)
     let number = Int(unsignedRandomNumber)
+    return unsignedRandomNumber
     } else {
-        print("Borked")
+    let charlie = print("Broken")
+    let bravo = UInt32(charlie)
+    return bravo
+    }
+    
 }
-
 
 
 //let unsignedY = UInt32(x)
 //let unsignedRandomNumber = arc4random_uniform(unsignedY)
-let number = Int(saveInt)
+let number = Int(saveIntFunc())
 //MARK: Class for random number
 
 struct RandomNumber {
@@ -35,7 +41,7 @@ struct RandomNumber {
     
     if let high = UInt32?(0){
         print("Invalid number")
-            } else { let high = Int(saveInt) + 1
+            } else { let high = Int(saveIntFunc()) + 1
         }
         let range = 1...high
        return range
