@@ -51,9 +51,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     //limits max characters in text field.
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange,
-        replacementString string: String) -> Bool
-    {
+  func textField(textField:UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool{
         let maxLength = 3
         let currentString: NSString = textField.text!
         let newString: NSString =
