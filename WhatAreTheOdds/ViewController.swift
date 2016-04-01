@@ -8,6 +8,18 @@
 
 import UIKit
 
+//Hides keyboard when tapped anywhere on screen
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
+
 let randomNumber = RandomNumber()
 
 class ViewController: UIViewController, UITextFieldDelegate {
@@ -32,10 +44,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         
     }
-        override func viewDidLoad() {
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
-    }
 
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
