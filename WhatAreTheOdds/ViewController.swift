@@ -14,12 +14,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     //UI Elements
     @IBOutlet weak var rangeInputTextField: UITextField!
+    @IBAction func touchFieldDidBeginEditing(sender: AnyObject) {
+        print("Impressive")
+        randomNumber.getRandomNumber(0)
+        
+    }
     @IBOutlet weak var rolledNumber: UILabel!
     @IBAction func rollButton(sender: UIButton) {
         
-        let rangeInput = UInt32(self.rangeInputTextField.text!)!
-        rolledNumber?.text = randomNumber.getRandomNumber(rangeInput)
-        self.rangeInputTextField!.resignFirstResponder() //Closes keyboard
+        if ((UInt32(self.rangeInputTextField.text!)) != nil &&
+            (UInt32(self.rangeInputTextField.text!)) > 0) {
+            
+            let rangeInput = UInt32(self.rangeInputTextField.text!)!
+            rolledNumber?.text = randomNumber.getRandomNumber(rangeInput)
+            self.rangeInputTextField!.resignFirstResponder() //Closes keyboard
+        }
+        
         
     }
         override func viewDidLoad() {
