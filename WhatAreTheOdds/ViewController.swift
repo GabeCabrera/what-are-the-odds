@@ -8,7 +8,7 @@
 
 import UIKit
 
-//Hides keyboard when tapped anywhere on screen
+
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -19,12 +19,12 @@ extension UIViewController {
         view.endEditing(true)
     }
 }
-
 let randomNumber = RandomNumber()
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
     //UI Elements
+
     @IBOutlet weak var rangeInputTextField: UITextField!
     @IBAction func touchFieldDidBeginEditing(sender: AnyObject) {
         print("Impressive")
@@ -47,7 +47,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.hideKeyboardWhenTappedAround()
+    
+        
+//            //Close keyboard with tap somewhere on screen, so you dont have to press the button to close the keyboard
+//            let tapOffKeyboard: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+//            view.addGestureRecognizer(tapOffKeyboard)
+//        
+//        func dismissKeyboard() {
+//            //Causes the view (or one of its embedded text fields) to resign the first responder status.
+//            view.endEditing(true)
+//        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
