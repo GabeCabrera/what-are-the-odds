@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE00B7C81CAEF67200C0FE3F /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00B7C71CAEF67200C0FE3F /* RulesViewController.swift */; };
 		CE65DAFF1CAADD3100B3FAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65DAFE1CAADD3100B3FAE2 /* AppDelegate.swift */; };
 		CE65DB011CAADD3100B3FAE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65DB001CAADD3100B3FAE2 /* ViewController.swift */; };
 		CE65DB041CAADD3100B3FAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE65DB021CAADD3100B3FAE2 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE00B7C71CAEF67200C0FE3F /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 		CE65DAFB1CAADD3100B3FAE2 /* WhatAreTheOdds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatAreTheOdds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE65DAFE1CAADD3100B3FAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE65DB001CAADD3100B3FAE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				CE65DAFE1CAADD3100B3FAE2 /* AppDelegate.swift */,
 				CE65DB001CAADD3100B3FAE2 /* ViewController.swift */,
+				CE00B7C71CAEF67200C0FE3F /* RulesViewController.swift */,
+				CE65DB101CAADD8000B3FAE2 /* RandomNumber.swift */,
 				CE65DB021CAADD3100B3FAE2 /* Main.storyboard */,
 				CE65DB051CAADD3100B3FAE2 /* Assets.xcassets */,
 				CE65DB071CAADD3100B3FAE2 /* LaunchScreen.storyboard */,
 				CE65DB0A1CAADD3100B3FAE2 /* Info.plist */,
-				CE65DB101CAADD8000B3FAE2 /* RandomNumber.swift */,
 			);
 			path = WhatAreTheOdds;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				CE65DB011CAADD3100B3FAE2 /* ViewController.swift in Sources */,
 				CE65DB111CAADD8000B3FAE2 /* RandomNumber.swift in Sources */,
+				CE00B7C81CAEF67200C0FE3F /* RulesViewController.swift in Sources */,
 				CE65DAFF1CAADD3100B3FAE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
