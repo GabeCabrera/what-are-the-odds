@@ -163,7 +163,7 @@
                                                     <segue destination="BYZ-38-t0r" kind="show" id="Lk8-mu-tqE"/>
                                                 </connections>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-b6-h0o">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-b6-h0o">
                                                 <rect key="frame" x="175" y="97" width="250" height="406"/>
                                                 <color key="backgroundColor" red="1" green="0.86558485460000001" blue="0.12842133620000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <mutableString key="text">*scroll down for more rules*  Gameplay
