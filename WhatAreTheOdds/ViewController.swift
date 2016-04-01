@@ -9,6 +9,8 @@
 import UIKit
 
 
+//Keyboard set up.
+
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -19,6 +21,9 @@ extension UIViewController {
         view.endEditing(true)
     }
 }
+
+
+
 let randomNumber = RandomNumber()
 
 class ViewController: UIViewController, UITextFieldDelegate {
@@ -42,6 +47,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
+        rangeInputTextField.delegate = self
+    }
+    
+    //limits max characters in text field.
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange,
+        replacementString string: String) -> Bool
+    {
+        let maxLength = 3
+        let currentString: NSString = textField.text!
+        let newString: NSString =
+        currentString.stringByReplacingCharactersInRange(range, withString: string)
+        return newString.length <= maxLength
     }
     
     override func didReceiveMemoryWarning() {
