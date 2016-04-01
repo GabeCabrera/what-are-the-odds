@@ -8,54 +8,8 @@
 
 import Foundation
 
-let viewController =  ViewController()
-var x = ViewController().rangeInput
-//let y = (Int?(x!))
-// var number = arc4random_uniform(UInt32(Int(y!)))
-
-
-func saveIntFunc()->UInt32{
-if let saveInt = x as Int? {
-    let unsignedY = UInt32(saveInt)
-    let unsignedRandomNumber = arc4random_uniform(unsignedY)
-    let number = Int(unsignedRandomNumber)
-    return unsignedRandomNumber
-    } else {
-    let charlie = print("Broken")
-    let bravo = UInt32(charlie)
-    return bravo
-    }
-    
-}
-
-
-//let unsignedY = UInt32(x)
-//let unsignedRandomNumber = arc4random_uniform(unsignedY)
-let number = Int(saveIntFunc())
-//MARK: Class for random number
-
 struct RandomNumber {
-    // numberRange to change the value for 1...X(user input)
-    //creates the list to be picked from. (pickRandom)
-   func numberRange(high:  UInt32) ->Range<UInt32>{
-    
-    if let high = UInt32?(0){
-        print("Invalid number")
-            } else { let high = Int(saveIntFunc()) + 1
-        }
-        let range = 1...high
-       return range
-    
+    func getRandomNumber(x: UInt32) -> String{
+        return String(arc4random_uniform(x) + 1)
     }
-    //pick random number from that list
-   
-    let pickRandom = number
 }
-
-
-// (Int(number) % range) + (low + 1)
-
-//func numberRange(x: UInt32) {
-//    var _number = Int(number)
-//}
-//☹️
