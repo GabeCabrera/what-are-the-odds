@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "HpI-Ho-UeX"; */
+"HpI-Ho-UeX.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Roll!"; ObjectID = "KPX-Gc-2XQ"; */
+"KPX-Gc-2XQ.normalTitle" = "Roll!";
+
+/* Class = "UILabel"; text = "What are the odds?"; ObjectID = "UFi-Pe-NIU"; */
+"UFi-Pe-NIU.text" = "What are the odds?";
+
+/* Class = "UITextField"; placeholder = " "; ObjectID = "nw3-sU-lk8"; */
+"nw3-sU-lk8.placeholder" = " ";
+
+/* Class = "UITextField"; text = " "; ObjectID = "nw3-sU-lk8"; */
+"nw3-sU-lk8.text" = " ";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "uqc-eD-cDd"; */
+"uqc-eD-cDd.text" = "1";
