@@ -26,11 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //UI Elements
 
     @IBOutlet weak var rangeInputTextField: UITextField!
-    @IBAction func touchFieldDidBeginEditing(sender: AnyObject) {
-        print("Impressive")
-        randomNumber.getRandomNumber(0)
-        
-    }
+    @IBAction func touchFieldDidBeginEditing(sender: AnyObject) { randomNumber.getRandomNumber(0) }
     @IBOutlet weak var rolledNumber: UILabel!
     @IBAction func rollButton(sender: UIButton) {
         
@@ -41,24 +37,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
             rolledNumber?.text = randomNumber.getRandomNumber(rangeInput)
             self.rangeInputTextField!.resignFirstResponder() //Closes keyboard
         }
-        
-        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
-    
-        
-//            //Close keyboard with tap somewhere on screen, so you dont have to press the button to close the keyboard
-//            let tapOffKeyboard: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
-//            view.addGestureRecognizer(tapOffKeyboard)
-//        
-//        func dismissKeyboard() {
-//            //Causes the view (or one of its embedded text fields) to resign the first responder status.
-//            view.endEditing(true)
-//        }
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
