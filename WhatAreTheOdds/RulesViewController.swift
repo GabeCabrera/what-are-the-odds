@@ -9,6 +9,12 @@
 import UIKit
 
 class RulesViewController: UIViewController {
+    
+    //optional: white status bar style
+    
+//    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+//        return .LightContent
+//    }
 
     @IBOutlet weak var backButton: UIButton!
     override func viewDidLoad() {

@@ -27,6 +27,10 @@ extension UIViewController {
 let randomNumber = RandomNumber()
 
 class ViewController: UIViewController, UITextFieldDelegate {
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
 
     //UI Elements
 
@@ -48,6 +52,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
         rangeInputTextField.delegate = self
+        
     }
     
     //limits max characters in text field.
