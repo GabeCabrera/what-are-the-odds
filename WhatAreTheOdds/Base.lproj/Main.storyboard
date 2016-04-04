@@ -171,28 +171,27 @@
                                                 <color key="backgroundColor" red="0.88235294119999996" green="0.76470588240000004" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <mutableString key="text">-Scroll down for more rules-  Gameplay
 
-At any point, you can think of a dare for someone else to do. 
+At any point, you can think of a dare for some friends to do. 
 Go up to them and ask them “what are the odds that you’ll whatever dare?” E.g:
 What are the odds you’ll take a shot of ketchup?
 What are the odds that you’ll take 10 selfies with strangers tonight?
 What are the odds you’ll wear your shoes next time you shower? 
 Dare Rules
 
-The dare rules are the same as in the Die Game. * If the dare costs money, the darer has to pay.
-* No “life altering” dares. *  If they refuse, even if it’s a valid dare, 
-     they’re banned from daring other people.
+* If the dare costs money, the darer has to pay.
+* No “life altering” dares.*  If they refuse, even if it’s a valid dare, 
+ - they’re banned from daring other people.
 They then present some odds like “1 in X”. E.g. “1 in 10” or “1 in 5” or “1 in 100”. 
 The odds they pick will be the probability that they have to do this thing. 
-So if they don’t want to do it, they can pick smaller odds.
-Now we have to see what happens!  On the count of three, both of you say a number between 1 and X inclusive. 
-If both of you say the same number, that’s a hit! They have to do the dare.
+So if they don’t want to do it, they can pick a higher number, from 1-1000.
+Now we have to see what happens!  Whoever you dared has to type a number in, their "odds" i.e 1 in 20, now, think of a number, and say it out loud, and if you roll the same number that you were thinking of, you have to do the dare!
 
 Special Odds
 
 There are two “special” odds that might cause you to do the dare.
 They are a check to make sure your dares aren’t too crazy:
-If they say “1 in 1”, you both have to do the dare.
-If they say “1 in 2” and it hits, they still have to do it, but if it misses, you have to do it.</mutableString>
+If you roll “1 in 1”, you both have to do the dare.
+If you roll “1 in 2” and it hits, they still have to do it, but if it misses, you have to do it.</mutableString>
                                                 <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
