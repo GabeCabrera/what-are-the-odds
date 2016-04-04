@@ -22,8 +22,6 @@ extension UIViewController {
     }
 }
 
-
-
 let randomNumber = RandomNumber()
 
 class ViewController: UIViewController, UITextFieldDelegate {
