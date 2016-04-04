@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGQ-3W-Wwg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="306"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGQ-3W-Wwg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3Z-PX-Lch">
                                         <rect key="frame" x="272" y="159" width="56" height="118"/>
@@ -26,20 +26,12 @@
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="____" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ir-Ar-5bZ">
-                                        <rect key="frame" x="200" y="197" width="200" height="118"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="100"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8ir-Ar-5bZ" secondAttribute="bottom" constant="-9" id="IUb-h1-QML"/>
-                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="top" secondItem="bGQ-3W-Wwg" secondAttribute="top" constant="159" id="Omt-EU-FCE"/>
-                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="centerX" secondItem="bGQ-3W-Wwg" secondAttribute="centerX" id="jxR-xG-pn0"/>
-                                    <constraint firstItem="8ir-Ar-5bZ" firstAttribute="centerX" secondItem="N3Z-PX-Lch" secondAttribute="centerX" id="mK8-5q-Rxq"/>
-                                    <constraint firstItem="8ir-Ar-5bZ" firstAttribute="leading" secondItem="bGQ-3W-Wwg" secondAttribute="leading" constant="200" id="ngV-eq-O4Z"/>
+                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="top" secondItem="bGQ-3W-Wwg" secondAttribute="top" constant="159" id="7w5-IF-cug"/>
+                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="centerX" secondItem="bGQ-3W-Wwg" secondAttribute="centerX" id="rg5-DN-m3O"/>
+                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="leading" secondItem="bGQ-3W-Wwg" secondAttribute="leading" constant="272" id="uqH-40-fsq"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LLy-ne-0cT">
