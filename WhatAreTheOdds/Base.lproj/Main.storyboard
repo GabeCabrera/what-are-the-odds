@@ -64,7 +64,7 @@
                                             <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Thj-RN-38R" kind="show" action="showDetailViewController:sender:" id="3Fo-f0-Ymi"/>
+                                            <segue destination="Thj-RN-38R" kind="show" identifier="segueToRules" action="showDetailViewController:sender:" id="3Fo-f0-Ymi"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" " borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nw3-sU-lk8">
@@ -163,7 +163,7 @@
                                                     <color key="titleColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="show" id="Lk8-mu-tqE"/>
+                                                    <segue destination="BYZ-38-t0r" kind="show" identifier="segueFromRules" id="Lk8-mu-tqE"/>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-b6-h0o">

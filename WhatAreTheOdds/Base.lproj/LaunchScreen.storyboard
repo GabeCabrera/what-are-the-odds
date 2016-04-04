@@ -17,59 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGQ-3W-Wwg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3Z-PX-Lch">
-                                        <rect key="frame" x="272" y="159" width="56" height="118"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="100"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="top" secondItem="bGQ-3W-Wwg" secondAttribute="top" constant="159" id="7w5-IF-cug"/>
-                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="centerX" secondItem="bGQ-3W-Wwg" secondAttribute="centerX" id="rg5-DN-m3O"/>
-                                    <constraint firstItem="N3Z-PX-Lch" firstAttribute="leading" secondItem="bGQ-3W-Wwg" secondAttribute="leading" constant="272" id="uqH-40-fsq"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LLy-ne-0cT">
-                                <rect key="frame" x="0.0" y="303" width="600" height="297"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYi-U3-dTC">
-                                        <rect key="frame" x="200" y="-105" width="200" height="118"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="100"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mh-XU-Bzj">
-                                        <rect key="frame" x="273" y="21" width="54" height="118"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="100"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="5mh-XU-Bzj" firstAttribute="top" secondItem="NYi-U3-dTC" secondAttribute="bottom" constant="8" id="D7c-cP-6Ts"/>
-                                    <constraint firstItem="NYi-U3-dTC" firstAttribute="top" secondItem="LLy-ne-0cT" secondAttribute="top" constant="-105" id="LFC-RA-hhx"/>
-                                    <constraint firstItem="NYi-U3-dTC" firstAttribute="top" secondItem="LLy-ne-0cT" secondAttribute="top" constant="-105" id="QyI-0C-C8j"/>
-                                    <constraint firstItem="NYi-U3-dTC" firstAttribute="leading" secondItem="LLy-ne-0cT" secondAttribute="leading" constant="200" id="Rbi-yE-0ml"/>
-                                    <constraint firstItem="NYi-U3-dTC" firstAttribute="centerX" secondItem="LLy-ne-0cT" secondAttribute="centerX" id="pKO-KF-eAI"/>
-                                    <constraint firstItem="NYi-U3-dTC" firstAttribute="leading" secondItem="LLy-ne-0cT" secondAttribute="leading" constant="200" id="ql5-dm-2gs"/>
-                                    <constraint firstItem="NYi-U3-dTC" firstAttribute="centerX" secondItem="5mh-XU-Bzj" secondAttribute="centerX" id="zts-ag-0Jw"/>
-                                </constraints>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are the odds?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJu-v1-eZR">
+                                <rect key="frame" x="202" y="186" width="196" height="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="bGQ-3W-Wwg" firstAttribute="leading" secondItem="LLy-ne-0cT" secondAttribute="leading" id="DrY-k3-COi"/>
-                            <constraint firstItem="LLy-ne-0cT" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="UJl-Hy-yP3"/>
-                            <constraint firstItem="bGQ-3W-Wwg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hZ1-jw-Cw9"/>
-                            <constraint firstItem="bGQ-3W-Wwg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nmn-LH-OP8"/>
-                            <constraint firstItem="bGQ-3W-Wwg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ue5-WH-rrM"/>
-                            <constraint firstItem="LLy-ne-0cT" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="283" id="wyc-XB-iUh"/>
+                            <constraint firstItem="xJu-v1-eZR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lgZ-RE-WQN"/>
+                            <constraint firstItem="xJu-v1-eZR" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="166" id="rtM-40-Wiw"/>
                         </constraints>
                     </view>
                 </viewController>
