@@ -10,13 +10,16 @@ import UIKit
 
 class RulesViewController: UIViewController {
     
+ @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     //optional: white status bar style
     
 //    override func preferredStatusBarStyle() -> UIStatusBarStyle {
 //        return .LightContent
 //    }
 
-    @IBOutlet weak var backButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
