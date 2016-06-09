@@ -102,7 +102,7 @@
 				TargetAttributes = {
 					CE65DAFA1CAADD3100B3FAE2 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 6H9GA97XDD;
+						DevelopmentTeam = 54LL4ZBVV4;
 					};
 				};
 			};
@@ -260,7 +260,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WhatAreTheOdds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.damerita.WhatAreTheOdds;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GabeCabrera.WhatAreTheOdds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -275,7 +275,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WhatAreTheOdds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.damerita.WhatAreTheOdds;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GabeCabrera.WhatAreTheOdds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
